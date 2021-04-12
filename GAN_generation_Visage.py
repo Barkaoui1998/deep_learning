@@ -64,7 +64,7 @@ def discriminator(input_imgs, reuse=False):
         normalized_output = tf.layers.batch_normalization(layer_convult_2, training=True)
         relu_outpt = tf.maximum(leaky_param_alpha * normalized_output, normalized_output)
         
-        layer_convult_3 = tf.layers.conv2d(relu_outpt, 256, 5, 2, 'same')
+        layer_convult_3 = tf.layers.conv2d(relu_outpt, 216, 5, 2, 'same')
         normalized_output = tf.layers.batch_normalization(layer_convult_3, training=True)
         relu_outpt2 = tf.maximum(leaky_param_alpha * normalized_output, normalized_output)
         
