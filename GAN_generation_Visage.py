@@ -219,7 +219,7 @@ def mdl_trainning(num_epocs, train_batch_size, z_dim, learning_rate, beta1, get_
 
 train_batch_size = 64
 z_dim = 100
-learning_rate = 0.002
+learning_rate = 0.001
 beta1 = 0.5
 
 num_epochs = 1
