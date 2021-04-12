@@ -7,7 +7,7 @@ from urllib.request import urlretrieve
 import zipfile
 import gzip
 import shutil
-
+import tensorfow 
 import numpy as np
 from PIL import Image
 from tqdm import tqdm
