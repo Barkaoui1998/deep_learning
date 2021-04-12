@@ -39,7 +39,26 @@ plt.imshow(tool.images_square_grid(celebA_images, 'RGB'))
 
 """Entrées du modèle"""
 
-# définition des entrees(inputs) du modele
+# définition des entrees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ du modele
 def inpts_mdl(img_width, img_height, img_channels, latent_space_z_dim):
     true_inpts_mdl = tf.placeholder(tf.float32, (None, img_width, img_height, img_channels),
                                  'true_inpts_mdl')
