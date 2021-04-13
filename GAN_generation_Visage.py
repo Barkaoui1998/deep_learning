@@ -15,7 +15,7 @@ from tqdm import tqdm
 from glob import glob
 import tensorflow as tf
 import matplotlib.pyplot as plt
-
+import numpy as np
 import tool
 #barkaoui
 
