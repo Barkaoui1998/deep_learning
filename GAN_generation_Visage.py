@@ -17,8 +17,8 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 import tool
-#barkaoui
-
+#barkaoui Mohammed 
+ 
 tf.reset_default_graph()
 
 #Téléchargement du dataset celebA  
