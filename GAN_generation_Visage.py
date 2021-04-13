@@ -145,8 +145,8 @@ def loss_mdl(input_actual, input_latent_z, out_channel_dim):
     return discriminator_loss_fakeloss, loss_generator
     
     
-"""Optimiseur de modèle"""
-
+"""Optimiseur  modèle"""
+ 
 
 # spécifiant les critères d'optimisation
 def optimizer_mdl(discriminator_loss_fakeloss, loss_generator, learning_rate, beta1):
